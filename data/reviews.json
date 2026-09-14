@@ -1,0 +1,122 @@
+[
+  {
+    "id": "rev-001",
+    "name": "Sarah Mitchell",
+    "role": "General Counsel",
+    "company": "Hargrove International",
+    "rating": 5,
+    "quote": "NexRole placed me in my dream role within three weeks. Their understanding of the legal market is unmatched — I felt genuinely supported throughout the entire process.",
+    "type": "Candidate",
+    "avatar": null
+  },
+  {
+    "id": "rev-002",
+    "name": "James Okoye",
+    "role": "Head of Talent",
+    "company": "Zenith Financial Group",
+    "rating": 5,
+    "quote": "We've used NexRole for six senior hires across finance and operations. Every single shortlist was exceptional — vetted, well-presented, and ready to interview.",
+    "type": "Employer",
+    "avatar": null
+  },
+  {
+    "id": "rev-003",
+    "name": "Emma Chen",
+    "role": "VP of Engineering",
+    "company": "CloudScale Inc.",
+    "rating": 5,
+    "quote": "The CV rewrite service completely transformed how I present myself. Within a week of updating my CV, I had three interview requests from top-tier firms.",
+    "type": "Candidate",
+    "avatar": null
+  },
+  {
+    "id": "rev-004",
+    "name": "David Arnault",
+    "role": "Managing Partner",
+    "company": "Arnault & Dubois LLP",
+    "rating": 5,
+    "quote": "NexRole's executive search team found us a CFO who exceeded every expectation. Their process is thorough, fast, and deeply professional.",
+    "type": "Employer",
+    "avatar": null
+  },
+  {
+    "id": "rev-005",
+    "name": "Priya Sharma",
+    "role": "Senior Analyst",
+    "company": "Meridian Capital",
+    "rating": 5,
+    "quote": "I was relocating from Mumbai to London and NexRole made the transition seamless. They understood cross-border hiring better than any agency I'd worked with.",
+    "type": "Candidate",
+    "avatar": null
+  },
+  {
+    "id": "rev-006",
+    "name": "Michael Torres",
+    "role": "COO",
+    "company": "Pacific Trade Corp",
+    "rating": 4,
+    "quote": "NexRole consistently delivers quality candidates. Their sector knowledge and speed of delivery have made them our go-to recruitment partner across APAC.",
+    "type": "Employer",
+    "avatar": null
+  },
+  {
+    "id": "rev-007",
+    "name": "Amara Diallo",
+    "role": "HR Director",
+    "company": "GlobalReach Industries",
+    "rating": 5,
+    "quote": "From initial consultation to final placement, NexRole was professional and proactive. They found me a role that perfectly matched both my skills and career goals.",
+    "type": "Candidate",
+    "avatar": null
+  },
+  {
+    "id": "rev-008",
+    "name": "Thomas Whitfield",
+    "role": "CEO",
+    "company": "Whitfield & Partners",
+    "rating": 5,
+    "quote": "We entrusted NexRole with three critical C-suite searches and they delivered outstanding candidates each time. Their discretion and market insight are invaluable.",
+    "type": "Employer",
+    "avatar": null
+  },
+  {
+    "id": "rev-009",
+    "name": "Lisa van der Berg",
+    "role": "Brand Director",
+    "company": "Luminary Creative",
+    "rating": 5,
+    "quote": "The cover letter and CV package was worth every penny. NexRole didn't just rewrite my CV — they repositioned my entire career narrative for the executive market.",
+    "type": "Candidate",
+    "avatar": null
+  },
+  {
+    "id": "rev-010",
+    "name": "Robert Adeyemi",
+    "role": "Founder & CEO",
+    "company": "Launchpad Ventures",
+    "rating": 5,
+    "quote": "As a startup founder, I needed senior talent fast. NexRole understood our culture and delivered a shortlist of exceptional candidates within 10 business days.",
+    "type": "Employer",
+    "avatar": null
+  },
+  {
+    "id": "rev-011",
+    "name": "Katherine Mosley",
+    "role": "Compliance Director",
+    "company": "Fidelity Regulatory",
+    "rating": 4,
+    "quote": "NexRole's team understood the nuances of regulatory hiring. They matched me with a firm that aligned perfectly with my specialisation and career trajectory.",
+    "type": "Candidate",
+    "avatar": null
+  },
+  {
+    "id": "rev-012",
+    "name": "Henrik Johansson",
+    "role": "CTO",
+    "company": "NovaTech Solutions",
+    "rating": 5,
+    "quote": "We've partnered with NexRole for over two years. Their tech recruitment expertise and candidate quality have been instrumental in scaling our engineering team across Europe.",
+    "type": "Employer",
+    "avatar": null
+  }
+]

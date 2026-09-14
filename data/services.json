@@ -1,0 +1,142 @@
+{
+  "newCV": {
+    "id": "new-cv",
+    "name": "New CV Writing",
+    "tagline": "Flagship Service",
+    "price": 995,
+    "currency": "USD",
+    "label": "One-time · Executive Package",
+    "deliveryTime": "6–10 hours",
+    "consultation": "Priority+",
+    "revisions": "Priority",
+    "description": "A complete, executive-level CV written from the ground up — built to position you for senior and board-level roles worldwide.",
+    "shortDescription": "Complete executive CV built from scratch for senior and board-level positioning.",
+    "features": [
+      "Executive CV Rewrite",
+      "Executive Positioning Enhancement",
+      "Professional Formatting & Design",
+      "Board-Level Positioning",
+      "Governance & Executive Narrative",
+      "Market Differentiation Strategy",
+      "Strategic Repositioning",
+      "Premium Board Market Targeting",
+      "Priority+ Consultation",
+      "Priority Revision Round"
+    ],
+    "whoIsFor": [
+      {
+        "title": "Senior Executives",
+        "description": "Directors, VPs and C-suite professionals seeking board-level opportunities"
+      },
+      {
+        "title": "Career Changers",
+        "description": "Professionals pivoting industries who need a CV that repositions their experience"
+      },
+      {
+        "title": "International Candidates",
+        "description": "Professionals targeting roles across borders who need global positioning"
+      }
+    ],
+    "href": "/services/new-cv",
+    "paymentHref": "/payment?service=new-cv&amount=995&currency=USD"
+  },
+  "cvRewrite": {
+    "id": "cv-rewrite",
+    "name": "CV Rewrite",
+    "tagline": "Resume Service",
+    "description": "A professional rewrite of your existing CV — sharper language, stronger framing, better results. Choose the tier that fits your goals.",
+    "shortDescription": "Professional rewrite of your existing CV with tiered packages.",
+    "href": "/services/cv-rewrite",
+    "tiers": {
+      "sapphire": {
+        "id": "cv-rewrite-sapphire",
+        "name": "Sapphire",
+        "price": 300,
+        "currency": "USD",
+        "color": "#2563EB",
+        "label": "A strong, professional rewrite of your existing CV",
+        "deliveryTime": "20–24 hours",
+        "consultation": "1 Session",
+        "revisions": "1 Round",
+        "recommended": false,
+        "features": [
+          "Executive CV Rewrite",
+          "Executive Positioning Enhancement",
+          "Professional Formatting & Design"
+        ],
+        "paymentHref": "/payment?service=cv-rewrite-sapphire&amount=300&currency=USD"
+      },
+      "ruby": {
+        "id": "cv-rewrite-ruby",
+        "name": "Ruby",
+        "price": 500,
+        "currency": "USD",
+        "color": "#F59E0B",
+        "label": "Everything in Sapphire, plus board-level positioning",
+        "deliveryTime": "14–18 hours",
+        "consultation": "Priority",
+        "revisions": "1 Round",
+        "recommended": true,
+        "features": [
+          "Everything in Sapphire",
+          "Board-Level Positioning",
+          "Governance & Executive Narrative",
+          "Market Differentiation Strategy"
+        ],
+        "paymentHref": "/payment?service=cv-rewrite-ruby&amount=500&currency=USD"
+      },
+      "diamond": {
+        "id": "cv-rewrite-diamond",
+        "name": "Diamond",
+        "price": 700,
+        "currency": "USD",
+        "color": "#C4B5FD",
+        "label": "Our most complete rewrite with premium board-market targeting",
+        "deliveryTime": "6–10 hours",
+        "consultation": "Priority+",
+        "revisions": "Priority",
+        "recommended": false,
+        "features": [
+          "Everything in Ruby",
+          "Strategic Repositioning",
+          "Premium Board Market Targeting"
+        ],
+        "paymentHref": "/payment?service=cv-rewrite-diamond&amount=700&currency=USD"
+      }
+    }
+  },
+  "coverLetter": {
+    "id": "cover-letter",
+    "name": "Cover Letter",
+    "tagline": "Resume Service",
+    "price": 300,
+    "currency": "USD",
+    "label": "One-time",
+    "deliveryTime": "24 hours",
+    "consultation": "1 Session",
+    "revisions": "1 Round",
+    "format": "ATS-Optimized",
+    "description": "An executive-level, ATS-optimized cover letter tailored to your target role — written to make a strong first impression.",
+    "shortDescription": "Executive-level, ATS-optimized cover letter tailored to your target role.",
+    "features": [
+      "Executive-Level Cover Letter",
+      "ATS-Optimized Content",
+      "Tailored to Your Target Role",
+      "Personalized Value Proposition",
+      "Leadership & Achievement Focus",
+      "Professional Formatting",
+      "One Revision Round",
+      "24-Hour Delivery"
+    ],
+    "href": "/services/cover-letter",
+    "paymentHref": "/payment?service=cover-letter&amount=300&currency=USD"
+  },
+  "paymentServices": [
+    { "value": "new-cv", "label": "New CV Writing — $995", "amount": 995 },
+    { "value": "cv-rewrite-sapphire", "label": "CV Rewrite — Sapphire ($300)", "amount": 300 },
+    { "value": "cv-rewrite-ruby", "label": "CV Rewrite — Ruby ($500)", "amount": 500 },
+    { "value": "cv-rewrite-diamond", "label": "CV Rewrite — Diamond ($700)", "amount": 700 },
+    { "value": "cover-letter", "label": "Cover Letter — $300", "amount": 300 },
+    { "value": "other", "label": "Other Custom Service", "amount": 0 }
+  ]
+}

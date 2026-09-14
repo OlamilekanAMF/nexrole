@@ -1,0 +1,29 @@
+# Default crawl rules
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# AI & Generative Engine Crawlers (GEO Optimization)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Canonical Sitemap Reference
+Sitemap: https://nexrole.com/sitemap.xml

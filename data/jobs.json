@@ -1,0 +1,222 @@
+[
+  {
+    "id": "job-001",
+    "title": "Senior Corporate Lawyer",
+    "company": "Whitfield & Partners LLP",
+    "location": "London, UK",
+    "sector": "Legal",
+    "type": "Full-time",
+    "salary": "£120,000 – £150,000",
+    "description": "Lead complex M&A transactions and corporate restructuring for a top-tier City law firm.",
+    "featured": true
+  },
+  {
+    "id": "job-002",
+    "title": "VP of Finance",
+    "company": "Meridian Capital Group",
+    "location": "New York, US",
+    "sector": "Finance",
+    "type": "Full-time",
+    "salary": "$180,000 – $220,000",
+    "description": "Oversee financial planning, analysis, and reporting for a leading private equity firm.",
+    "featured": true
+  },
+  {
+    "id": "job-003",
+    "title": "Lead Software Engineer",
+    "company": "NovaTech Solutions",
+    "location": "Berlin, Germany",
+    "sector": "Technology",
+    "type": "Full-time",
+    "salary": "€95,000 – €120,000",
+    "description": "Architect and build scalable distributed systems for a high-growth SaaS platform.",
+    "featured": true
+  },
+  {
+    "id": "job-004",
+    "title": "HR Director",
+    "company": "GlobalReach Industries",
+    "location": "Dubai, UAE",
+    "sector": "Human Resources",
+    "type": "Full-time",
+    "salary": "AED 45,000 – 60,000/mo",
+    "description": "Drive talent strategy, organizational development, and employee experience across MENA.",
+    "featured": true
+  },
+  {
+    "id": "job-005",
+    "title": "Operations Manager",
+    "company": "Apex Logistics",
+    "location": "Toronto, Canada",
+    "sector": "Operations",
+    "type": "Full-time",
+    "salary": "CAD $110,000 – $140,000",
+    "description": "Streamline supply chain operations and manage cross-functional teams for a logistics leader.",
+    "featured": true
+  },
+  {
+    "id": "job-006",
+    "title": "Senior Marketing Manager",
+    "company": "BrightPath Digital",
+    "location": "Sydney, Australia",
+    "sector": "Marketing",
+    "type": "Full-time",
+    "salary": "AUD $130,000 – $160,000",
+    "description": "Lead digital marketing strategy, brand campaigns, and growth initiatives for APAC markets.",
+    "featured": true
+  },
+  {
+    "id": "job-007",
+    "title": "Interim CFO",
+    "company": "Sterling Holdings",
+    "location": "London, UK",
+    "sector": "Finance",
+    "type": "Contract",
+    "salary": "£1,200/day",
+    "description": "6-month interim engagement to lead financial restructuring and board reporting.",
+    "featured": false
+  },
+  {
+    "id": "job-008",
+    "title": "DevOps Architect",
+    "company": "CloudScale Inc.",
+    "location": "Remote (US)",
+    "sector": "Technology",
+    "type": "Contract",
+    "salary": "$150 – $180/hr",
+    "description": "Design and implement cloud-native CI/CD pipelines and infrastructure automation.",
+    "featured": false
+  },
+  {
+    "id": "job-009",
+    "title": "Executive Assistant",
+    "company": "Harrington & Cole",
+    "location": "Manchester, UK",
+    "sector": "Admin",
+    "type": "Full-time",
+    "salary": "£35,000 – £45,000",
+    "description": "Provide high-level administrative support to the C-suite, manage calendars and stakeholder comms.",
+    "featured": false
+  },
+  {
+    "id": "job-010",
+    "title": "Chief Technology Officer",
+    "company": "Vertex Innovations",
+    "location": "San Francisco, US",
+    "sector": "Technology",
+    "type": "Executive",
+    "salary": "$280,000 – $350,000",
+    "description": "Set the technology vision and lead engineering teams for a Series C AI startup.",
+    "featured": false
+  },
+  {
+    "id": "job-011",
+    "title": "Private Equity Analyst",
+    "company": "Oakwood Capital",
+    "location": "Singapore",
+    "sector": "Finance",
+    "type": "Full-time",
+    "salary": "SGD $120,000 – $150,000",
+    "description": "Conduct deal sourcing, due diligence, and financial modelling for a mid-market PE fund.",
+    "featured": false
+  },
+  {
+    "id": "job-012",
+    "title": "Employment Lawyer",
+    "company": "Carter & Associates",
+    "location": "Dublin, Ireland",
+    "sector": "Legal",
+    "type": "Full-time",
+    "salary": "€85,000 – €110,000",
+    "description": "Advise multinational clients on employment law, workplace disputes, and regulatory compliance.",
+    "featured": false
+  },
+  {
+    "id": "job-013",
+    "title": "Talent Acquisition Lead",
+    "company": "PeopleFirst Group",
+    "location": "Amsterdam, Netherlands",
+    "sector": "Human Resources",
+    "type": "Full-time",
+    "salary": "€80,000 – €100,000",
+    "description": "Build and scale recruitment processes for a rapidly expanding tech company across Europe.",
+    "featured": false
+  },
+  {
+    "id": "job-014",
+    "title": "Supply Chain Director",
+    "company": "Pacific Trade Corp",
+    "location": "Hong Kong",
+    "sector": "Operations",
+    "type": "Executive",
+    "salary": "HKD $1,200,000 – $1,500,000",
+    "description": "Lead end-to-end supply chain transformation across Asia-Pacific manufacturing operations.",
+    "featured": false
+  },
+  {
+    "id": "job-015",
+    "title": "Brand Strategist",
+    "company": "Luminary Creative",
+    "location": "Los Angeles, US",
+    "sector": "Marketing",
+    "type": "Contract",
+    "salary": "$95 – $120/hr",
+    "description": "Develop brand positioning, visual identity, and go-to-market strategy for premium clients.",
+    "featured": false
+  },
+  {
+    "id": "job-016",
+    "title": "Compliance Officer",
+    "company": "Fidelity Regulatory",
+    "location": "Frankfurt, Germany",
+    "sector": "Legal",
+    "type": "Full-time",
+    "salary": "€90,000 – €115,000",
+    "description": "Ensure regulatory compliance across banking operations in line with EU financial directives.",
+    "featured": false
+  },
+  {
+    "id": "job-017",
+    "title": "Data Engineering Manager",
+    "company": "Stratos Analytics",
+    "location": "Remote (EU)",
+    "sector": "Technology",
+    "type": "Full-time",
+    "salary": "€100,000 – €130,000",
+    "description": "Lead a data engineering team building real-time analytics pipelines and data infrastructure.",
+    "featured": false
+  },
+  {
+    "id": "job-018",
+    "title": "Office Manager",
+    "company": "Summit Consulting",
+    "location": "Birmingham, UK",
+    "sector": "Admin",
+    "type": "Full-time",
+    "salary": "£30,000 – £38,000",
+    "description": "Manage daily office operations, facilities, and vendor relationships for a growing consultancy.",
+    "featured": false
+  },
+  {
+    "id": "job-019",
+    "title": "Managing Director",
+    "company": "Ironbridge Investments",
+    "location": "Zurich, Switzerland",
+    "sector": "Finance",
+    "type": "Executive",
+    "salary": "CHF 350,000 – 450,000",
+    "description": "Lead the European investment division, drive AUM growth, and manage institutional relationships.",
+    "featured": false
+  },
+  {
+    "id": "job-020",
+    "title": "Growth Marketing Lead",
+    "company": "Launchpad Ventures",
+    "location": "Lagos, Nigeria",
+    "sector": "Marketing",
+    "type": "Full-time",
+    "salary": "₦18,000,000 – ₦25,000,000",
+    "description": "Spearhead growth marketing for a Series A fintech scaling across West Africa.",
+    "featured": false
+  }
+]
