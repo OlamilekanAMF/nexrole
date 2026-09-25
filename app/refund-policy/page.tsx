@@ -77,8 +77,8 @@ export default function RefundPolicyPage() {
         <>
           <p>
             To initiate a formal refund review, email{" "}
-            <a href="mailto:billing@nexrole.com" className="text-blue-600 dark:text-blue-400 underline">
-              billing@nexrole.com
+            <a href="mailto:support@nexroleagency.com" className="text-blue-600 dark:text-blue-400 underline">
+              support@nexroleagency.com
             </a>{" "}
             with your full name, transaction reference number, and a detailed summary of your claim.
             Our finance team investigates and responds within 3 business days. Approved refunds are
