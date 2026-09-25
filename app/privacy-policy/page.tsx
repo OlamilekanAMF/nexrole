@@ -101,8 +101,8 @@ export default function PrivacyPolicyPage() {
           </ul>
           <p className="pt-2">
             To exercise any of these statutory rights, please contact our Data Protection Officer at{" "}
-            <a href="mailto:privacy@nexrole.com" className="text-blue-400 underline">
-              privacy@nexrole.com
+            <a href="mailto:privacy@nexroleagency.com" className="text-blue-400 underline">
+              privacy@nexroleagency.com
             </a>
             .
           </p>
