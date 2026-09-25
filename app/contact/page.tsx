@@ -42,7 +42,7 @@ function ContactPageContent() {
   const headlineLetters = "Let's talk.".split("");
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText("support@nexrole.com");
+    navigator.clipboard.writeText("support@nexroleagency.com");
     setCopiedEmail(true);
     setTimeout(() => setCopiedEmail(false), 2500);
   };
@@ -336,7 +336,7 @@ function ContactPageContent() {
               </div>
               <div className="flex-grow">
                 <span className="text-xs text-slate-500 dark:text-slate-400">Direct Email</span>
-                <p className="text-base font-bold text-slate-900 dark:text-white mt-0.5">support@nexrole.com</p>
+                <p className="text-base font-bold text-slate-900 dark:text-white mt-0.5">support@nexroleagency.com</p>
                 <button
                   onClick={handleCopyEmail}
                   className="mt-2 text-xs font-semibold text-blue-600 dark:text-blue-400 hover:underline flex items-center gap-1.5 transition-colors"
