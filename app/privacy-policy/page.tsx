@@ -3,7 +3,7 @@ import { LegalPageLayout } from "@/components/legal/LegalPageLayout";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "NexRole Privacy Policy and GDPR Data Protection Standards.",
+  description: "NexRole privacy policy covering candidate, employer, and website user data handling.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -14,14 +14,15 @@ export default function PrivacyPolicyPage() {
       content: (
         <>
           <p>
-            NexRole Global Recruitment Agency (&ldquo;NexRole,&rdquo; &ldquo;we,&rdquo;
-            &ldquo;our,&rdquo; or &ldquo;us&rdquo;) respects your privacy and is strictly committed
-            to protecting the personal data of candidates, hiring partners, and website visitors.
+            NexRole Global Recruitment Agency (&ldquo;NexRole,&rdquo; &ldquo;we,&rdquo; &ldquo;our,&rdquo;
+            or &ldquo;us&rdquo;) respects the privacy of candidates, employers, clients, and website
+            visitors.
           </p>
           <p>
-            This policy describes the types of information we may collect from you or that you may
-            provide when you visit nexrole.com and our practices for collecting, using, maintaining,
-            protecting, and disclosing that information.
+            This policy explains what personal information we collect, how we use it, when we may share
+            it, and how you can contact us about your information. It applies to information collected
+            through the nexrole.com website, contact forms, recruitment communications, and related
+            services.
           </p>
         </>
       ),
@@ -31,21 +32,23 @@ export default function PrivacyPolicyPage() {
       title: "Information We Collect",
       content: (
         <>
-          <p>We collect several types of information from and about users of our platform, including:</p>
+          <p>We may collect and process the following information:</p>
           <ul className="list-disc pl-5 space-y-1.5 text-slate-600 dark:text-slate-300">
             <li>
-              <strong>Candidate Identity & Career Data:</strong> Name, postal address, email address,
-              telephone number, employment history, qualifications, compensation records, and
-              curriculum vitae documents.
+              <strong>Candidate information:</strong> full name, contact details, work history, skills,
+              qualifications, CVs, cover letters, and professional background.
             </li>
             <li>
-              <strong>Organizational Partner Data:</strong> Corporate entity names, representative
-              contact details, hiring briefs, job descriptions, and billing records.
+              <strong>Employer and client information:</strong> company details, job requirements,
+              hiring needs, contact information, and any information relevant to a recruitment brief.
             </li>
             <li>
-              <strong>Transactional Data:</strong> Payment verification tokens generated via our
-              Lemon Squeezy integration. Note: NexRole does not store full credit card numbers on our
-              servers.
+              <strong>Website interaction data:</strong> information you provide through contact forms,
+              messages, enquiry submissions, or direct communication with our team.
+            </li>
+            <li>
+              <strong>Transaction information:</strong> information needed to process payments for CV or
+              related services through approved providers.
             </li>
           </ul>
         </>
@@ -56,55 +59,79 @@ export default function PrivacyPolicyPage() {
       title: "How We Use Your Information",
       content: (
         <>
-          <p>We use information that we collect about you or that you provide to us:</p>
+          <p>We use personal information to:</p>
           <ul className="list-disc pl-5 space-y-1.5 text-slate-600 dark:text-slate-300">
-            <li>To match candidates with active, unlisted, or prospective employer vacancies.</li>
-            <li>To perform executive CV writing, rewriting, and formatting services.</li>
-            <li>To process authorized payments and deliver fulfillment vouchers.</li>
-            <li>To notify you about changes to our platform, mandates, or policies.</li>
-            <li>To comply with regulatory employment and data protection obligations.</li>
-          </ul>
-        </>
-      ),
-    },
-    {
-      id: "data-sharing",
-      title: "Confidentiality & Third-Party Disclosure",
-      content: (
-        <>
-          <p>
-            Candidate CVs and personal profiles are <strong>never</strong> circulated to prospective
-            employers without explicit verbal or written authorization from the candidate.
-          </p>
-          <p>
-            We may disclose aggregated, non-identifying market insights to partners. Third-party
-            service providers (e.g. Lemon Squeezy for payments, Web3Forms for inquiry routing) operate
-            under strict confidentiality and data-processing covenants.
-          </p>
-        </>
-      ),
-    },
-    {
-      id: "data-retention",
-      title: "Data Retention & Your Rights (GDPR/NDPR)",
-      content: (
-        <>
-          <p>
-            Under UK GDPR, European GDPR, and applicable global data privacy regulations, you have the
-            right to:
-          </p>
-          <ul className="list-disc pl-5 space-y-1.5 text-slate-300">
-            <li>Request access to your personal dossier held by NexRole.</li>
-            <li>Request correction of inaccurate or incomplete records.</li>
-            <li>Request complete erasure (&ldquo;Right to be Forgotten&rdquo;) of your CV data.</li>
-            <li>Withdraw consent to talent pool communications at any time.</li>
+            <li>Assess suitability for relevant employment opportunities or recruitment introductions.</li>
+            <li>Review candidate experience and qualifications against genuine job requirements.</li>
+            <li>Provide optional CV/resume, cover-letter, and related career-document services.</li>
+            <li>Communicate with candidates, employers, and clients about opportunities or services.</li>
+            <li>Process payments and provide service-related confirmations.</li>
+            <li>Maintain compliance, document business activity, and improve our recruitment processes.</li>
           </ul>
           <p className="pt-2">
-            To exercise any of these statutory rights, please contact our Data Protection Officer at{" "}
-            <a href="mailto:privacy@nexroleagency.com" className="text-blue-400 underline">
+            We do not promise employment, interviews, or acceptance based solely on the information you
+            provide. We also do not sell personal data.
+          </p>
+        </>
+      ),
+    },
+    {
+      id: "sharing",
+      title: "How We Share Information",
+      content: (
+        <>
+          <p>
+            We may share information only where necessary to operate our recruitment and service
+            functions, including with:
+          </p>
+          <ul className="list-disc pl-5 space-y-1.5 text-slate-600 dark:text-slate-300">
+            <li>Employers or hiring partners where a candidate has consented to being considered.</li>
+            <li>Approved service providers used to process payments, deliver emails, or support website operations.</li>
+            <li>Legal or regulatory authorities where required by law or to protect legitimate interests.</li>
+          </ul>
+          <p className="pt-2">
+            Candidate CVs and personal details are not typically shared with employers without a clear
+            recruitment purpose and appropriate consent or instruction from the candidate.
+          </p>
+        </>
+      ),
+    },
+    {
+      id: "retention-rights",
+      title: "Retention, Security, and Your Rights",
+      content: (
+        <>
+          <p>
+            We retain personal data only as long as necessary for the purposes described above, to meet
+            legal obligations, or to support legitimate business needs. We use reasonable administrative,
+            technical, and organisational measures to protect personal information from unauthorised
+            access, disclosure, alteration, or destruction.
+          </p>
+          <p>
+            Depending on your location and applicable law, you may have rights to request access to,
+            correction of, deletion of, or objection to the processing of your personal data. You may
+            also withdraw consent to certain communications at any time.
+          </p>
+          <p className="pt-2">
+            To exercise your rights or ask a question about this policy, please contact us at{" "}
+            <a href="mailto:privacy@nexroleagency.com" className="text-blue-600 dark:text-blue-400 underline">
               privacy@nexroleagency.com
             </a>
             .
+          </p>
+        </>
+      ),
+    },
+    {
+      id: "cookies",
+      title: "Cookies and Website Usage",
+      content: (
+        <>
+          <p>
+            Our website may use cookies or similar technologies to support functionality, improve user
+            experience, and help understand website performance. You can control or disable cookies
+            through your browser settings, but some website features may not work as intended if cookies
+            are disabled.
           </p>
         </>
       ),
@@ -114,7 +141,7 @@ export default function PrivacyPolicyPage() {
   return (
     <LegalPageLayout
       title="Privacy Policy"
-      subtitle="How NexRole handles, secures, and honors candidate confidentiality and institutional hiring data globally."
+      subtitle="How NexRole handles personal information for recruitment, client communications, and professional career-document services."
       sections={sections}
     />
   );
