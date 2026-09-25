@@ -129,7 +129,7 @@ export async function POST(req: Request) {
       return NextResponse.json(
         { 
           success: false, 
-          error: "Unable to process email delivery. Please contact support@nexrole.com directly." 
+          error: "Unable to process email delivery. Please contact support@nexroleagency.com directly." 
         },
         { status: 502 }
       );
