@@ -20,9 +20,6 @@ export function Footer() {
               <span className="text-2xl font-extrabold tracking-tight"><span className="text-white">Nex</span><span className="text-electric">Role</span></span>
             </Link>
             <p className="text-sm text-slate-400 max-w-sm leading-relaxed">Connecting elite professionals with leading organisations worldwide — faster, smarter, and with high-impact executive CV positioning built in.</p>
-            <div className="flex items-center gap-3 pt-2">
-              {[{ name: "LinkedIn", href: "https://linkedin.com", label: "LI" }, { name: "Twitter/X", href: "https://x.com", label: "𝕏" }, { name: "Instagram", href: "https://instagram.com", label: "IG" }].map((s) => <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" aria-label={s.name} className="w-9 h-9 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-xs font-bold text-slate-400 hover:text-white hover:border-blue-500/50 transition-colors">{s.label}</a>)}
-            </div>
           </div>
           <div className="md:col-span-4 space-y-4">
             <h4 className="text-xs font-bold tracking-wider uppercase text-slate-400">Navigation & Services</h4>
